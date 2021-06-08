@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    <title>Center - maly Document rr</title>
+</head>
+<body>
+  <!-- https://www.youtube.com/watch?v=njdJeu95p6s top 3 -->
+  <style>
+    .rr{
+      background: #888;
+      border: 3px solid red;
+      padding: 70px;
+    }
+    .rrh{
+      height: 400px;
+      background: #444;
+    }
+    
+    .rr-abso{ /*classic - srodek ekranu*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .rr-flex{ /*czy musza byc linie przerwy ?? */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rr-grid{
+      display:grid;
+      place-items: center;
+    }
+
+
+    /**/
+
+  </style>
+  OO - trzeba zmieniac class (dopisac/usunac 0 z nazwy)
+  <!--  -->
+
+  <article class="rrh  rr-flex0  rr-grid0">
+    <!-- linia przerwy -->
+    <div class="rr  rr-abso">:-)</div>
+    
+  </article>
+
+  XX <!-- koniec -->
+</body>
+</html>
